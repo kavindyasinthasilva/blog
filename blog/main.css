@@ -149,7 +149,7 @@ html.night strong {
 
 body.night .section__content .underline-link:after,
 html.night .section__content .underline-link:after {
-    background: #000;
+    background: #e7e7e7;
 }
 
 a {
@@ -258,19 +258,6 @@ strong {
     }
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-.section__title {
-   text-align: left;
-        width: auto;
-        font-size: 1px;
-  
-
-}
-
-}
-
 .section__content {
     font-weight: 300;
     font-size: 1rem;
@@ -292,21 +279,10 @@ strong {
     }
 }
 
-
 .section__content p {
     margin-top: 0;
     margin-bottom: 25px;
 }
-@media screen and (max-width: 480px) {
-    
-.section__content p {
-    margin-top: 0;
-    margin-bottom: 25px;
-    font-size: 17px;
-}
-
-}
-
 
 .section__content .underline-link {
     position: relative;
@@ -367,16 +343,6 @@ strong {
     -webkit-transform: translateX(7px);
     transform: translateX(7px);
 }
-
-@media screen and (max-width: 480px) {
-    
-.arrow-link {
-  font-size: 28px;
-}
-
-}
-
-
 
 .small {
     font-family: Inconsolata, monospace;
@@ -511,30 +477,8 @@ strong {
 
     .intro__hello,
     .intro__tagline {
-    font-size: 1.75rem;
-        
-      display: block;
-      margin-top: -29%; 
-
-      line-height: 2.0;
-      display: none;
-
-         }
-
-
-
-     }
-
-
-
-
-}
-@media screen and (max-width: 480px) {
-    .imh img{
-
-        display: none;
+        font-size: 1.75rem;
     }
-
 }
 
 @media screen and (max-width: 360px) {
@@ -542,7 +486,6 @@ strong {
     .intro__hello,
     .intro__tagline {
         font-size: 1.5rem;
-        display: none;
     }
 }
 
@@ -577,10 +520,6 @@ strong {
         height: 30px;
     }
 }
-
-
-
-
 
 @media screen and (max-width: 360px) {
 
@@ -710,9 +649,7 @@ strong {
         font-size: 1rem;
     }
 }
-@media only screen and (min-width: 600px) {
 
-}
 .intro__contact .emoji.pointer {
     background-image: url(../img/emoji/arrow-pointing-to-right.png);
     width: 30px;
@@ -775,17 +712,6 @@ strong {
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
-}
-
-@media screen and (max-width: 480px) {
-    
-.skills .skillz__category__label {
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
 }
 
 .skills .skillz__category__item {
@@ -1021,14 +947,6 @@ strong {
 
 .featured-projects .project__name a {
     font-weight: 700;
-}
-@media screen and (max-width: 480px) {
-    
-.featured-projects .project__name a {
-    font-weight: 700;
-    font-size: 28px;
-}
-
 }
 
 .featured-projects .project p {
@@ -1349,7 +1267,6 @@ strong {
 
 margin-top: -25px;
 
-
 }
 .imh{
 
@@ -1376,15 +1293,6 @@ margin-top: -290px;
 }
 }
 
-@media screen and (max-width: 480px) {
-    .imh img{
-
-        display: none;
-
-}
-
-}
-
 @media screen and (max-width: 360px) {
 
 
@@ -1398,9 +1306,7 @@ margin-top: -290px;
 
   border-radius: 50%;
   width: 120px;
-  display: none;
 }
-
 
    
 }
@@ -1591,18 +1497,6 @@ text-align: center;
         margin-left: 0;
     }
 
-}
-
-.serif {
-  font-family: "Times New Roman", Times, serif;
-}
-
-.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.monospace {
-  font-family: "Lucida Console", Courier, monospace;
 }
 
 
