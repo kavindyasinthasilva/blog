@@ -14,13 +14,13 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/ashleygwilliams/my_package.git"
+      "url": "https://github.com/kavindyasinthasilva/blog.git"
     },
     "keywords": [],
     "author": "Kavindu yasintha silva",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/ashleygwilliams/my_package/issues"
+      "url": "https://github.com/kavindyasinthasilva/blog.git"
     },
-    "homepage": "https://github.com/ashleygwilliams/my_package"
+    "homepage": "https://github.com/kavindyasinthasilva/blog.gite"
   }
