@@ -1,11 +1,11 @@
-storage: /verdaccio/storage
+storage: 
 
 publish:
   allow_offline: true
 
 auth:
   htpasswd:
-    file: /verdaccio/conf/htpasswd
+    file: 
     
 security:
   api:
@@ -23,7 +23,7 @@ uplinks:
 # a custom UI
 web:
   enable: true
-  title: My Verdaccio
+  title: sky
   logo: /logo.png
   primary_color: "#5427e8"
   gravatar: false
