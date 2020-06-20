@@ -1,3 +1,5 @@
+
+// skySoftlk own by codes
 jQuery(function ($) {
     //typewrite effect
     var TxtType = function (el, toRotate, period) {
