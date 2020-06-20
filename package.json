@@ -1,7 +1,10 @@
 
-"publishConfig": { "registry": "https://npm.pkg.github.com/" }
+
 
   {
+  	"publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
     "name": "my_package",
     "description": "",
     "version": "1.0.0",
