@@ -1,4 +1,4 @@
-# blog🪂👨🏾‍🎓👨🏽‍💻🤘🏻
+# blog🪂👨🏾‍🎓👨🏽‍💻🤘🏻 sky
 
 
 ![Image](https://github.com/kavindyasinthasilva/blog/blob/master/Gif/Screenshot%20(244).png)
