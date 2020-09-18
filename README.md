@@ -6,7 +6,7 @@
 This is my personal bolg (kavinduyasintha.tech)
 This web reporitive  and you can Contribiute this project your web Develooment knowlages.
 
-### web host on firea base .
+### web host on firea base . d
 
 ![Image](https://github.com/kavindyasinthasilva/blog/blob/master/Gif/sky1.gif)
 ![Image](https://github.com/kavindyasinthasilva/blog/blob/master/Gif/sky2.gif)
