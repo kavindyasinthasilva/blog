@@ -45,7 +45,7 @@
     <meta property="og:title" content="kavindu yasintha | FullStack Developer" />
     
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="www.kavinduyasintha.tech/" />
+    <meta property="og:url" content="www.kavinduyasintha.info/" />
     <meta property="og:site_name" content="kavinduyasintha" />
     <meta property="og:image" content="" />
     <meta property="og:image:width" content="1280" />
@@ -54,32 +54,246 @@
     <meta property="og:locale" content="en_US" />
     
   
-    <link rel="stylesheet" href="./css/main.css" hreflang="en-us" />
-    <link rel="stylesheet" href="main.css" hreflang="en-us" />
-    <link rel="stylesheet" type="text/css" href="back.css">
+    <link rel="stylesheet" href="css/main.css" hreflang="en-us" />
+    <link rel="stylesheet" href="css/main.css" hreflang="en-us" />
+    <link rel="stylesheet" type="text/css" href="css/a.css">
 </head>
+
+
+
+
 <header>
-  
- <nav>
-        <div id="logo">SkySoFTlk</div>
-
-        <label for="drop" class="toggle"><i class="fa fa-bars"></i>&nbsp;
-        Menu</label>
-        <input type="checkbox" id="drop" />
-            <ul class="menu">
-                <li><a href="#">  Home</a></li>
-            
-                 <li><a href="#"> Projects</a></li>
-                <li><a href="#"><i class="fa fa-github"></i>&nbsp; Github</a></li>
-                <li><a href="#"><i class="fa  fa-download"></i>&nbsp; Downlodes</a></li>
-                <li><a href="#">Photos </a></li>
-                <li><a href="#About">About</a></li>
-                <li>|EN</li>
-            </ul>
-        </nav>
-
+    <div class="navBar clearfix">
+        <div class="navContainer clearfix">
+            <h1 class="logo">
+                <a href="#"> 🐻</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skils</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="mobileNavIcon">☰</a>
+        </div>
+    </div>
   
 </header>
+
+
+
+<style type="text/css">
+    
+
+header {
+    background: linear-gradient(rgba(202, 29, 94, .5), rgba(20, 20, 20, .3)), url('Untitled-1.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+.navBar {
+    width: 100%;
+/*     background: rgba(20, 20, 20, .5); */
+}
+
+.coloredBar {
+    background: rgba(20, 20, 20, .5);
+}
+
+.container,
+.navContainer {
+    width: 95%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.navContainer {
+    position: relative;
+}
+
+header a,
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    padding: 7px 5px 7px 0;
+    margin: 0;
+}
+
+.logo a img {
+    max-width: 150px;
+    width: 150px;
+}
+
+nav {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1em 0;
+    margin-bottom: .15em;
+}
+
+.mobileNavIcon {
+    font-size: 2.1em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+.toggle {
+    display: block;
+}
+
+.heroContainer {
+    padding: 20vh 0 40vh;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-header {
+    margin-bottom: 8px;
+    font-size: 3.6em;
+    letter-spacing: -3px;
+    text-transform: uppercase;x
+}
+
+.hero-copy {
+    margin-top: 0px;
+    font-size: 1.25em;
+}
+
+.hero-btn {
+    width: 30%;
+    max-width: 300px;
+    background: rgba(128, 198, 62, .9);
+    padding: .8em 1.5em;
+    display: inline-block;
+    font-size: 1.25em;
+    border-radius: 3px;
+}
+
+.aboutIndex {
+    background: #fff;
+    color: #222;
+    margin: 0 auto;
+    padding: 10vh 0;
+}
+
+.
+
+/* CLEARFIX */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; }
+
+/* 
+    MEDIA QUERIES
+                    */
+
+
+/* 650PX MIN WIDTH */
+@media screen and (min-width: 650px) {
+    
+    .mobileNavIcon {
+        display: none;
+    }
+    
+    .navBar,
+    .navContainer {
+        clear: both;
+    }
+    
+    .logo {
+        float: left;
+    }
+    
+    nav {
+        display: block;
+    }
+    
+    ul {
+        display: inline-block;
+        float: right;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        padding-bottom: 0;
+    }
+    
+    nav ul li a {
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .hero-header {
+        font-size: 4.5em;
+    }
+    
+    .hero-btn:hover {
+        background: rgba(128, 198, 62, 1);
+    }
+    
+    nav ul li a {
+        position: relative;
+        
+    }
+    
+    nav ul li a:hover {
+        background: rgba(44, 173, 190, 1.0);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        box-shadow: 0 2px 2px rgba(20, 20, 20, .2);
+    }
+    
+    nav ul li a,
+    nav ul li a:hover {
+        transition: .5s all ease;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
 
 <body style="height: 100%;  background: #000">
     <meta name="viewport" content="width=device-width">
@@ -105,21 +319,20 @@
             	<!-- <a href=""> <img src="it.png" style="max-width: 70px" ></a>  <a href=""><img src="sl.png" style="max-width: 70px"></a> <a href=""><img src="uk.png" width="70px"></a>-->
            
             <h2 class="intro__tagline" class="im">
-                I'm <span class="name">Kavindu Yasintha Silva</span>
+                I'm <span class="name">Kavindu Yasintha Silva 🐝</span>
             </h2>
-            <h3  class="c"> Software developer</h3>
+            <h3  class="c"> Software developer </h3>
 
             
 
 
 
        <div class="bt">
-        <a href="#" class="myButton">Downlodes</a>
-        <a href="#" class="myButton2">Photos</a>
+     
 
         <div  class="imh"  >
 	
-          <img src="a.jpg" style="max-width: 350px;">
+          <img src="img/a.jpg" style="max-width: 250px;">
 
 </div>
 
@@ -247,11 +460,59 @@
             style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(.694,0,.335,1) 0s;">
             <div class="section__title">Projects</div>
             <div class="section__content">
+
+
+ <div class="project blistabloc">
+                    <figure class="project__pic">
+                        <a href=""
+                            target="_blank">
+                            <img src="img/sky.jpg" alt="" />
+                        </a>
+                    </figure>
+                    <figcaption class="project__caption">
+                        <div class="project__name">
+                            <a href=""
+                                target="_blank">Smart Parking System</a>
+                        </div>
+                        <p>
+                            "sky"
+                          
+                            
+                        </p>
+                        <a class="small" href=""
+                            target="_blank"><span class="iconify" data-icon="fa-brands:google-play" data-inline="false" style="max-width:55px "></span>Available on Google PlayStore</a>
+                    </figcaption>
+                </div>
+
+ <div class="project blistabloc">
+                    <figure class="project__pic">
+                        <a href=""
+                            target="_blank">
+                            <img src="img/skvindu.jpg" alt="" />
+                        </a>
+                    </figure>
+                    <figcaption class="project__caption">
+                        <div class="project__name">
+                            <a href=""
+                                target="_blank">STool</a>
+                        </div>
+                        <p>
+                            "STool" min Tool Application .it use day today life.mostly i taget
+                            all ages and small phone. app size is 4MB .Eny one can contribute it my github
+                          
+                            
+                        </p>
+                        <a class="small" href=""
+                            target="_blank"><span class="iconify" data-icon="fa-brands:google-play" data-inline="false" style="max-width:55px "></span>Available on Google PlayStore</a>
+                    </figcaption>
+                </div>
+
+
                 <div class="project blistabloc">
                     <figure class="project__pic">
                         <a href=""
                             target="_blank">
-                            <img src="sky.jpg" alt="" />
+                            <img src="img/projects/sky.jpg" alt="" />
                         </a>
                     </figure>
                     <figcaption class="project__caption">
@@ -272,7 +533,7 @@
                 <div class="project blistabloc">
                     <figure class="project__pic">
                         <a href="" target="_blank">
-                            <img src="coc.jpg" alt="" />
+                            <img src="img/projects/coc.jpg" alt="" />
                         </a>
                     </figure>
                     <figcaption class="project__caption">
@@ -286,10 +547,45 @@
                             target="_blank"><span class="iconify" data-icon="fa-brands:google-play" data-inline="false" style="max-width:55px "></span>Available on Google PlayStore</a>
                     </figcaption>
                 </div>
+
+
+
+
+
+<div class="project blistabloc">
+                    <figure class="project__pic">
+                        <a href=""
+                            target="_blank">
+                            <img src="img/projects/sky.jpg" alt="" />
+                        </a>
+                    </figure>
+                    <figcaption class="project__caption">
+                        <div class="project__name">
+                            <a href=""
+                                target="_blank">STool</a>
+                        </div>
+                        <p>
+                            "STool" min Tool Application .it use day today life.mostly i taget
+                            all ages and small phone. app size is 4MB .Eny one can contribute it my github
+                          
+                            
+                        </p>
+                        <a class="small" href=""
+                            target="_blank"><span class="iconify" data-icon="fa-brands:google-play" data-inline="false" style="max-width:55px "></span>Available on Google PlayStore</a>
+                    </figcaption>
+                </div>
+
+
+
+
+
+
+
+
                 <div class="project blistabloc">
                     <figure class="project__pic">
                         <a href="" target="_blank">
-                            <img src="Untitled-1.jpg" alt="" />
+                            <img src="img/projects/Untitled-1.jpg" alt="" />
                         </a>
                     </figure>
                     <figcaption class="project__caption" id="news">
